@@ -7,6 +7,11 @@
 // commands please read more here:
 // https://on.cypress.io/custom-commands
 // ***********************************************
+Cypress.Commands.add('input', (locator,value) =>{
+    cy.get(locator)
+    .should('be.visible')
+    .type(value)
+})
 //
 //
 // -- This is a parent command --

@@ -1,0 +1,8 @@
+{
+    "validEmail" : "sandihidayat175@gmail.com",
+    "validPassword" : "280193Sandi@",
+    "invalidEmail" : "sandihidayat@gmail.com",
+    "invalidPassword" : "280193Sandi@123",
+    "invalidFormatEmail" : "sandihidayat@gmail"
+
+}
